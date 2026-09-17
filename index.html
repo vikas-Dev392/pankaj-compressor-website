@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Pankaj Compressor Engineer</title>
+
+  <style>
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #050b18;
+      color: white;
+    }
+
+    header {
+      background: #071b38;
+      padding: 18px 7%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      border-bottom: 2px solid #168cff;
+    }
+
+    header h1 {
+      color: #20a4ff;
+      font-size: 25px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 8px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #20a4ff;
+    }
+
+.hero {
+  min-height: 450px;
+  padding: 70px 7%;
+  display: flex;
+  align-items: center;
+  background:
+    linear-gradient(120deg, rgba(0, 15, 40, 0.85), rgba(0, 120, 220, 0.45)),
+    url("vikas.jpg") center/cover no-repeat;
+  border-bottom: 3px solid #20a4ff;
+}
+
+    .hero-content {
+      max-width: 700px;
+    }
+
+    .hero h2 {
+      font-size: 42px;
+      color: #20a4ff;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+      line-height: 1.2;
+    }
+
+    .hero h3 {
+      font-size: 25px;
+      color: white;
+      margin-bottom: 18px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      line-height: 1.7;
+      margin-bottom: 25px;
+      color: #e2efff;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 23px;
+      background: #078cff;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 15px;
+    }
+
+    .btn:hover {
+      background: #0064bd;
+    }
+
+    section {
+      padding: 48px 7%;
+    }
+
+    section h2 {
+      text-align: center;
+      color: #20a4ff;
+      margin-bottom: 28px;
+      font-size: 30px;
+    }
+
+    .about {
+      text-align: center;
+      line-height: 1.8;
+      max-width: 850px;
+      margin: auto;
+      color: #d9eaff;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 22px;
+    }
+
+    .card {
+      background: #0b1d36;
+      padding: 25px;
+      border-radius: 12px;
+      text-align: center;
+      border: 1px solid #16456f;
+      box-shadow: 0 0 12px rgba(0, 140, 255, 0.15);
+    }
+
+    .card h3 {
+      color: #20a4ff;
+      margin-bottom: 12px;
+      font-size: 21px;
+    }
+
+    .card p {
+      line-height: 1.6;
+      color: #d9eaff;
+    }
+
+    .form-box {
+      max-width: 650px;
+      margin: auto;
+      background: #0b1d36;
+      padding: 28px;
+      border-radius: 12px;
+      border: 1px solid #16456f;
+      box-shadow: 0 0 15px rgba(0, 140, 255, 0.15);
+    }
+
+    .form-box label {
+      display: block;
+      margin-bottom: 7px;
+      color: #bcdcff;
+      font-weight: bold;
+    }
+
+    .form-box input,
+    .form-box select,
+    .form-box textarea {
+      width: 100%;
+      padding: 13px;
+      margin-bottom: 16px;
+      border: none;
+      border-radius: 6px;
+      outline: none;
+      font-size: 15px;
+    }
+
+    .form-box textarea {
+      min-height: 100px;
+      resize: vertical;
+    }
+
+    .form-box .btn {
+      width: 100%;
+    }
+
+    .contact-box {
+      text-align: center;
+      line-height: 2;
+      color: #d9eaff;
+    }
+
+    footer {
+      text-align: center;
+      background: #071b38;
+      padding: 25px;
+      color: #c9e4ff;
+      border-top: 2px solid #168cff;
+      line-height: 1.8;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        justify-content: center;
+        text-align: center;
+      }
+
+      header h1 {
+        font-size: 21px;
+      }
+
+      nav {
+        text-align: center;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 5px;
+      }
+
+      .hero {
+        padding: 55px 6%;
+      }
+
+      .hero h2 {
+        font-size: 30px;
+      }
+
+      .hero h3 {
+        font-size: 21px;
+      }
+
+      .hero p {
+        font-size: 16px;
+      }
+
+      section {
+        padding: 38px 6%;
+      }
+      
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+  <h1>PANKAJ COMPRESSOR ENGINEER</h1>
+
+  <div class="header-contact">
+    <p>📞 7982468048</p>
+    ✉️ pkm858683@gmail.com</p>
+  </div>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#booking">Book Service</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+<img src="vikas.jpg" alt="compressor" width=100%; height="300px" >
+  <!-- About -->
+  <section>
+    <h2>About Our Company</h2>
+
+    <p class="about">
+      Pankaj Compressor Engineer provides reliable compressor
+      service, repair, maintenance, spare parts and compressor
+      solutions for industrial and commercial requirements.
+    </p>
+  </section>
+
+  <!-- Services -->
+  <section id="services">
+    <h2>Our Services</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>Compressor Service</h3>
+        <p>
+          Compressor servicing, maintenance and regular inspection.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Compressor Repair</h3>
+        <p>
+          Compressor fault checking, repair and troubleshooting.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Spare Parts</h3>
+        <p>
+          Compressor spare parts and replacement components.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>New Compressor</h3>
+        <p>
+          New air, piston and screw compressor requirements.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Old Compressor Sell</h3>
+        <p>
+          Old compressor selling and purchase enquiry.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Booking Form -->
+  <section id="booking">
+    <h2>Book Compressor Service</h2>
+
+    <div class="form-box">
+
+      <form id="bookingForm">
+
+        <label for="name">Customer Name</label>
+        <input
+          type="text"
+          id="name"
+          placeholder="Enter your name"
+          required
+        >
+
+        <label for="phone">Mobile Number</label>
+        <input
+          type="tel"
+          id="phone"
+          placeholder="Enter 10 digit mobile number"
+          pattern="[0-9]{10}"
+          maxlength="10"
+          required
+        >
+
+        <label for="service">Select Service</label>
+        <select id="service" required>
+          <option value="">Select service</option>
+          <option value="Compressor Service">Compressor Service</option>
+          <option value="Compressor Repair">Compressor Repair</option>
+          <option value="Spare Parts">Spare Parts</option>
+          <option value="New Compressor Requirement">
+            New Compressor Requirement
+          </option>
+          <option value="Old Compressor Sell">
+            Old Compressor Sell
+          </option>
+        </select>
+
+        <label for="address">Address</label>
+        <textarea
+          id="address"
+          placeholder="Enter your address"
+          required
+        ></textarea>
+
+        <label for="message">Compressor Problem / Requirement</label>
+        <textarea
+          id="message"
+          placeholder="Write your compressor problem or requirement"
+        ></textarea>
+
+        <button type="submit" class="btn">
+          Send Booking on WhatsApp
+        </button>
+
+      </form>
+
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+
+    <div class="contact-box">
+      <p><strong>PANKAJ COMPRESSOR ENGINEER</strong></p>
+      <p>Service Engineer: Pankaj</p>
+      <p>Mobile: 7982468048</p>
+      <p>Compressor Service | Spare Parts | New Compressor</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+  <h3>PANKAJ COMPRESSOR ENGINEER</h3>
+
+  <p>📞 Mobile: 7982468048</p>
+
+  <p>
+    ✉️ Email:
+    <a href="mailto:pkm858683@gmail.com">
+      pkm858683@gmail.com
+    </a>
+  </p>
+
+  <p>Compressor Service | Spare Parts | New Compressor</p>
+
+  <p>© 2026 Pankaj Compressor Engineer | All Rights Reserved</p>
+</footer>
+  <!-- WhatsApp JavaScript -->
+  <script>
+    document
+      .getElementById("bookingForm")
+      .addEventListener("submit", function(event) {
+
+        event.preventDefault();
+
+        const name =
+          document.getElementById("name").value.trim();
+
+        const phone =
+          document.getElementById("phone").value.trim();
+
+        const service =
+          document.getElementById("service").value;
+
+        const address =
+          document.getElementById("address").value.trim();
+
+        const message =
+          document.getElementById("message").value.trim();
+
+        const whatsappMessage =
+`Hey I have a requirement
+
+Customer Name: ${name}
+Mobile Number: ${phone}
+Service: ${service}
+Address: ${address}
+Problem / Requirement: ${message || "Not provided"}`;
+
+        const encodedMessage =
+          encodeURIComponent(whatsappMessage);
+
+        const whatsappNumber =
+          "917982468048";
+
+        const whatsappURL =
+          "https://wa.me/" +
+          whatsappNumber +
+          "?text=" +
+          encodedMessage;
+
+        window.open(whatsappURL, "_blank");
+
+      });
+  </script>
+
+</body>
+</html>
